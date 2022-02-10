@@ -59,7 +59,7 @@ function _resize() {
 window.addEventListener('resize', _resize);
 
 var _onsheet = function(json, sheetnames, select_sheet_cb) {
-  document.getElementById('footnote').style.display = "none";
+  // document.getElementById('footnote').style.display = "none";
 
   make_buttons(sheetnames, select_sheet_cb);
 
